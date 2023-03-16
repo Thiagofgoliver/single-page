@@ -1,0 +1,28 @@
+/* FUNDO LARANJA USA LARANJA COMO COR DE FUNDO  CODIGO ESTÁ NO STYLES */
+.fundo-laranja{
+    background-color: rgb(245, 100, 3);
+}
+
+
+
+
+/* classe 2 criada no html */
+.padd-12px{
+    padding: 12px;
+    padding: 12px ;
+}
+ 
+/* fundo preto classe 3 do html */
+.bg-preto{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+}
+
+/* regra para o id do carossel */
+
+    #banner-top {
+        width: 80%;
+     
+        /* centralizar elemento da tela */
+        margin: 0 auto;
+    }

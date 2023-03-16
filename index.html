@@ -1,0 +1,201 @@
+<!--  usando bootstrap    5   -->
+
+<!-- para iniciar corpo basico de bootstrap  b5 e $ -->
+
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title> MARKETING COMPANY </title>
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+
+    <!-- biblioteca de icones  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512- 
+    SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- css personalizado -->
+    <!-- carregamento do css  escreva link css apague oque esta dentro do href e de ctrl + barra de espaço e escolha a pasta -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+  
+<body>
+
+
+ <header>      
+    <!--inicio  -->
+    <!-- barra de navegação  boostrap b5 e primeira letra do componete desejado usei b5navbar default  -->
+     
+    
+    <nav class="navbar navbar-expand-sm navbar-dark  fixed-top
+     fundo-laranja"><!-- FUNDO LARANJA USA LARANJA COMO COR DE FUNDO  CODIGO ESTÁ NO     STYLES-->
+
+    
+    
+          
+       <div class="container-fluid pad-12px">   <!--classe criada no css 2 -->
+            
+            <a class="navbar-brand" href="#"> <!--ICONES--> <i class="fa-sharp fa-solid fa-camera fa-beat"></i> </i> MARKETING COMPANY </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+
+
+                    <!-- MENUS DE navegação -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page"> HOME <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">SERVIÇOS</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">PLANOS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">QUEM SOMOS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">PORTIFOLIO</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#">CONTATO</a>
+                    </li>
+
+                </ul>
+                
+            </div>
+       </div>
+     </nav>
+    <!-- fim menu  -->
+  </header>
+
+
+
+
+
+
+  <!-- texto  -->
+  <main class="m-5 pt-3">
+   <div class="container-flui padd-padrao">
+   <h1>Marketing Company</h1>
+   <p>DEV BY thiago felipe </p>
+</div>
+<!-- inicio  banner  topo superior -carossel -->
+<div id="banner-top" class="carousel slide" data-bs-ride="carousel">
+    
+    <ol class="carousel-indicators">
+        <li data-bs-target="#banner-top" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+        <li data-bs-target="#banner-top" data-bs-slide-to="1" aria-label="Second slide"></li>
+        <li data-bs-target="#banner-top" data-bs-slide-to="2" aria-label="Third slide"></li>
+    </ol>
+    
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <img src="imagens/coffee.jpg" class="w-100 d-block" alt="First slide">
+        </div>
+
+        <div class="carousel-item">
+            <img src="imagens/workbench.jpg" class="w-100 d-block" alt="Second slide">
+        </div>
+
+        <div class="carousel-item">
+            <img src="imagens/sound.jpg" class="w-100 d-block" alt="Third slide">
+        </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#banner-top" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-preto" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span> 
+         <!-- fundo preto classe 3 do css-->
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#banner-top" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-preto" aria-hidden="true"></span>
+        <span class="visually-hidden">Proximo</span>
+        <!-- fundo preto classe 3 do css-->
+
+    </button>
+</div> 
+<!-- final banner topo -->
+
+
+
+
+
+
+  </main>
+  <footer>
+
+
+   
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <!-- js personalisado -->
+  <!-- digite scr e  escolha script:src -->
+  <script src="js/coding.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+
+  </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
