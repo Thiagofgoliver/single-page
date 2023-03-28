@@ -1,28 +1,30 @@
-/* FUNDO LARANJA USA LARANJA COMO COR DE FUNDO  CODIGO ESTÁ NO STYLES */
 .fundo-laranja{
-    background-color: rgb(245, 100, 3);
+    background-color: #ff6600;
 }
 
-
-
-
-/* classe 2 criada no html */
-.padd-12px{
-    padding: 12px;
-    padding: 12px ;
+.padd-padrao{
+    padding-left: 20px;
+    padding-right: 20px;
 }
- 
-/* fundo preto classe 3 do html */
+
 .bg-preto{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 8px;
 }
 
-/* regra para o id do carossel */
+.sub-titulo{
+    /* largura do elemento igual largura do texto */
+    width: fit-content;
+    /* centraliza a caixa no recipiente <body> */
+    margin: 0 auto;
+}
 
-    #banner-top {
-        width: 80%;
-     
-        /* centralizar elemento da tela */
-        margin: 0 auto;
-    }
+#banner-top{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#banner-top .carousel-caption{
+    padding: 6px;
+    background-color: rgba(10, 10, 10, 0.50);
+}
