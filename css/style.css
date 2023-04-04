@@ -18,6 +18,31 @@
     /* centraliza a caixa no recipiente <body> */
     margin: 0 auto;
 }
+.seta-sobe{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    width:40px;
+    height:40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    /* seta */
+    text-align:center;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+   display: none;
+
+}
+  /* cor link */
+  .seta-sobe:hover{
+    color: #000;
+    background-color: rgba(255,255,255, 0.7);
+   
+
+
+  }
+
 
 #banner-top{
     width: 80%;

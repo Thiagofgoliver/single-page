@@ -111,3 +111,25 @@ fetch(url).then(Response => Response.json()).then(json =>{
 
 
 })
+
+
+// mostra a seta quando rolagem for maior que x
+
+//função rolagem
+const rolagem = () =>{
+   const tela = document.querySelector('html')
+   const seta =document.querySelector('.seta-sobe')
+   // console.log(tela.scrollTop)
+   if(tela.scrollTop >600){
+      seta.style.display='block'
+
+   }else{
+      seta.style.display='none'
+
+   }
+}
+
+//window.addEventlistener =('scroll',rolagem)
+
+
+window.onscroll =() => rolagem()
